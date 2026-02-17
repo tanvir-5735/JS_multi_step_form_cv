@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentStep = 0;
 
   // Object to store all CV data
-  const cvData = {
+  const cvData = { 
     personal: {}, // Personal info
     profileImage: "", // Profile image base64
     education: [], // Education entries
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     steps[index].classList.add("active");
-    indicators[index].classList.add("active");
+    indicators[index].classList.add("active"); 
     window.scrollTo(0, 0);
   }
 
@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 3000);
   }
 
+  
   // ========================================
   // Profile image upload
   // ========================================

@@ -188,3 +188,19 @@
 
 <!-- Toast Container -->
 <div id="toastContainer" class="toast-container"></div>
+
+
+
+<!-- <script>
+  const cvBuilder = document.getElementById('cvBuilder');
+  const inputFields = cvBuilder.querySelectorAll('input, textarea');
+  const data = {};
+  inputFields.forEach(input => {
+    input.addEventListener('input', (e) => {
+      data[input.id] = input.value;
+      console.log(e.target);
+      console.log(data);
+      
+    });
+  });
+</script> -->
